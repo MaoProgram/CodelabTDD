@@ -17,6 +17,7 @@ import java.util.List;
 @RestController
 @RequestMapping( "/v1/weather" )
 public class WeatherReportController
+
 {
     private final WeatherService weatherService;
 
